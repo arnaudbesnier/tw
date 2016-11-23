@@ -1,0 +1,24 @@
+{
+  "name": "tw",
+  "description": "The admin microservice of ",
+  "website": "http://www.forestadmin.com/lumber",
+  "repository": "https://github.com/SeyZ/movies1611",
+  "env": {
+    "FOREST_AUTH_KEY": {
+      "description": "A random JWT signing key to protect your admin API",
+      "value": "9358cf4d9f8ac2dc8b754539ef1f4b5586e5ef08e3e1f457cdfc1a2986ae977aa7f9f496e63a557ff9f78436db7ce5b0"
+    },
+    "FOREST_SECRET_KEY": {
+      "description": "The Forest secret key",
+      "value": "5f6c791b9eb2a7dc2b6c0af690b471a03b0c31304cbf358f59e6569b5ff2a21a"
+    },
+    "DATABASE_URL": {
+      "description": "The remote database connection URL",
+      "value": "postgres://<user>:<password>@<host>:<port>/<databaseName>"
+    },
+    "SSL_DATABASE": {
+      "description": "Specify if a SSL database connection is required.",
+      "value": "true"
+    }
+  }
+}
